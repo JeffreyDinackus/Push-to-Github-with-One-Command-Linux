@@ -1,0 +1,10 @@
+For windows, I reccomend using git aliases instead of a powershell script. 
+
+credit to this thread: 
+https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one
+
+
+git config --global alias.pp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+
+
+usage: git pp "message"
