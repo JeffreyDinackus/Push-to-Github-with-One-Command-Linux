@@ -1,0 +1,5 @@
+function (){
+
+git clone "$1"
+
+}
